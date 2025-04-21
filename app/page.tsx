@@ -18,11 +18,12 @@ import { ResumePopup } from "@/app/components/resume-popup";
 
 const projects = [
   {
-    title: "Acco Finder",
+    title: "Acco Finder – AI-Powered Housing Platform",
     features: [
-      "Designed and developed a platform using Next.js and firebase to solve housing challenges for international students, increasing user engagement by 50%.",
-      "Integrated real-time chat, user authentication, and Google Maps API, significantly enhancing platform usability and reducing the bounce rate by 75%.",
-      "Implemented personalized notifications and location-based services, leading to a 40% increase in daily active users.",
+      "Built a housing discovery platform using React, Next.js, and MongoDB, reducing student housing search time by 50% through location-based filtering and user-tailored listings.",
+      "Integrated a recommendation engine using Python, pandas, and cosine similarity, leveraging user input and listing metadata to deliver personalized housing suggestions.",
+      "Implemented real-time chat and map-based search functionality, improving platform engagement and interactivity.",
+      "Deployed on Vercel with serverless functions and caching, reducing backend latency by 35% under peak usage.",
     ],
     image: "/acco-finder-image.jpeg",
     link: "https://www.acco-finder.com/",
@@ -30,42 +31,44 @@ const projects = [
   {
     title: "Portfolio",
     features: [
-      "Designed a personal portfolio website to showcase professional projects and skills, addressing the need for an impactful online presence.",
-      "Built the site using Next.js, React.js, and Tailwind CSS, focusing on responsive layouts and intuitive navigation to enhance accessibility across devices.",
-      "Achieved high search visibility and a polished online portfolio by integrating custom animations and SEO optimizations, significantly improving engagement and professional outreach.",
+      "Designed and developed a responsive, SEO-optimized portfolio website using Next.js, React.js, and Tailwind CSS to showcase projects and technical expertise.",
+      "Implemented dynamic animations, optimized load times, and ensured accessibility across all devices.",
+      "The portfolio includes interactive components, performance enhancements, and real-time project previews to support professional engagement and recruiter visibility.",
     ],
-    image: "/portfolio-image.jpeg",
+    image: "/portfolio-image.png",
     link: "https://www.mallikarjuna-portfolio.com/",
   },
   {
     title: "AI Article Summarizer",
     features: [
-      "Built an AI-powered summarization tool using GPT-4 technology to address the challenge of time-consuming manual content summarization.",
-      "Designed an interactive React.js interface with live previews, boosting user engagement by 60% and reducing summarization time by 40%.",
-      "Applied advanced caching techniques to optimize performance, cutting loading times by 70% and enhancing user satisfaction.",
+      "Developed an AI-based summarization tool using OpenAI API (GPT-4), designed to automate long-form content reduction for quicker readability.",
+      "Created a real-time preview interface with Next.js and TypeScript, and built backend APIs in Node.js for efficient model integration.",
+      "Optimized loading speed by 70% using smart caching and improved database interactions.",
     ],
     image: "/ai-summarizer-image.jpeg",
     link: "https://aisummarizer-website.netlify.app/",
   },
   {
-    title: "Real Time Collaboration Platform",
+    title: "Entry-Level Jobs Dashboard",
     features: [
-      "Developed a collaborative web application using Next.js and React.js to enable real-time updates for document editing and team communication.",
-      "Integrated WebSocket-based communication to support live updates, task management, and chat functionality, improving team productivity significantly.",
-      "Implemented user roles and permissions for enhanced security, ensuring scalability for diverse team structures and projects.",
+      "Built a full-stack job discovery platform using Next.js, TypeScript, and Firebase, aggregating listings from LinkedIn, Indeed, and Google Jobs with real-time updates and filtering.",
+      "Integrated AI-driven resume matching using OpenAI for skill extraction and TF-IDF + XGBoost for entry-level classification, enabling personalized job scores and gap analysis.",
+      "Developed interactive analytics dashboards with Chart.js and Recharts, visualizing job trends, hiring regions, and skill demands using real-time Firestore data.",
+      "Implemented secure Firebase Authentication, profile management, and resume upload with version control, enabling users to track matches over time.",
     ],
-    image: "/collab-image.jpeg",
-    link: "https://github.com/malli7",
+    image: "/entry-level.png",
+    link: "https://entry-level-jobs-dashboard.vercel.app/",
   },
   {
-    title: "Car Zone",
+    title: "AI-Powered Resume & Cover Letter Generator",
     features: [
-      "Created a captivating web page for a car repair and wash company to improve online visibility and customer engagement.",
-      "Leveraged React.js and modern web development techniques to deliver a responsive and visually appealing user interface.",
-      "Integrated optimized components for showcasing services and customer testimonials, enhancing user trust and engagement.",
+      "Built a document generation platform using Next.js, Firestore, and Docker, enabling users to create tailored, ATS-optimized resumes and cover letters with a 93% reported success rate.",
+      "Integrated OpenAI GPT-4 for real-time content generation, leveraging prompt engineering, keyword optimization, and semantic alignment to match job descriptions at scale.",
+      "Used Selenium with Chrome headless to automate PDF rendering of resumes with pixel-perfect formatting and export functionality.",
+      "Deployed the entire system in a containerized environment using Docker, with scalable serverless functions for content generation and Firestore for persistent data and user session management.",
     ],
-    image: "/carzone-image.jpeg",
-    link: "https://github.com/malli7",
+    image: "/ai-resume.png",
+    link: "https://ai-resume-drab.vercel.app/",
   },
   {
     title: "Emotion Based Music Player",
@@ -80,76 +83,51 @@ const projects = [
 ];
 
 const skills = [
-  "User Interface Design",
-  "WebSocket",
-  "MongoDB",
   "OpenAI API",
-  "GPT-4",
-  "Three.js",
-  "Search Engine Optimization (SEO)",
   "TypeScript",
   "Firebase",
-  "HTML5",
-  "CSS",
   "Tailwind CSS",
   "MySQL",
-  "Data Structures",
-  "Algorithm Design",
   "Express.js",
   "REST APIs",
   "docker",
   "Git",
-  "CI/CD",
-  "jetkins",
   "PostgreSQL",
   "Full-Stack Development",
-  "Artificial Intelligence (AI)",
+  "Artificial Intelligence",
   "Machine Learning",
-  "Generative AI",
-  "Google Cloud Platform (GCP)",
-  "Back-End Web Development",
-  "Responsive Web Design",
   "Next.js",
   "React.js",
   "Node.js",
   "JavaScript",
-  "React Native",
-  "Android Development",
-  "Python (Programming Language)",
+  "Python",
   "Java",
 ];
 const workExperience = [
   {
     company: "Cognizant",
-    position: "Software Engineer Trainee",
-    period: "Feb 2023 - Aug 2023",
+    position: "Software Engineer",
+    period: "May 2022 - Aug 2023",
     responsibilities: [
-      "Developed and deployed full-stack web applications using React.js and Node.js, addressing performance challenges in existing systems.",
-      "Tasked with improving query response times and ensuring seamless feature deployments across development, staging, and production environments.",
-      "Optimized PostgreSQL database schemas and integrated robust CI/CD pipelines with Jenkins and Docker, enabling streamlined deployments and scalable application architecture.",
-      "Delivered a 40% improvement in application performance, a 50% reduction in database query response times, and a 60% decrease in deployment time, enhancing user satisfaction and operational efficiency.",
-    ],
-  },
-  {
-    company: "CourseHero",
-    position: "Tutor",
-    period: "Aug 2022 - Apr 2023",
-    responsibilities: [
-      "Assisted students in solving complex coding challenges in Java and Python, focusing on explaining foundational programming concepts and problem-solving strategies.",
-      "Tasked with delivering clear, concise, and accurate solutions to a diverse range of coding problems while maintaining a high helpfulness rating.",
-      "Reviewed and answered over 500+ coding questions, reinforcing students' understanding of data structures, algorithms, and language-specific best practices.",
-      "Consistently achieved a 93% helpful rating, showcasing a commitment to clarity, accuracy, and improving students' coding proficiency.",
+      "Developed dynamic web apps using React.js, Next.js, and Node.js, improving user engagement and reducing bounce rate by 30% through SPA optimizations and lazy loading.",
+      "Engineered secure backend APIs with Express.js, implementing token-based authentication, input validation, and role-based access.",
+      "Designed and deployed TensorFlow-based classification models for customer support and fraud detection, reducing manual review workloads by 35%.",
+      "Refactored database models in MongoDB/PostgreSQL, optimizing data retrieval and caching to reduce average query time by 50%.",
+      "Deployed microservices using Docker, AWS Lambda, and Kubernetes, enabling auto-scaling and ensuring 99.9% service availability.",
+      "Led automation of CI/CD pipelines with GitHub Actions and Jenkins, cutting down deployment cycles by 40% and reducing production errors",
+      "Worked across full Agile cycles, regularly contributing to sprint planning, testing, and release documentation.",
     ],
   },
   {
     company: "Cognizant",
     position: "Software Engineer Intern",
-    period: "Feb 2022 - Aug 2022",
+    period: "Nov 2021 - Apr 2022",
     responsibilities: [
-      "Engineered a comprehensive student management system to streamline academic processes and boost administrative efficiency.",
-      "Tasked with developing a scalable and responsive system capable of managing over 10,000 student records.",
-      "Designed the system using React.js and Node.js, optimized MySQL database schemas, and implemented RESTful APIs to ensure efficient data handling and interaction.",
-      "Achieved a 30% improvement in administrative efficiency, a 45% acceleration in data retrieval times, and a 25% reduction in system response time, delivering a high-impact solution.",
+      "Built a fully interactive internal dashboard using React, FastAPI, and MongoDB, automating record tracking and reducing admin workload by 30%.",
+      "Integrated NLP search features using spaCy, Scikit-learn, and fuzzy string matching to enhance search precision over semi-structured records.",
+      "Developed a secure API layer with JWT-based auth and role-specific endpoints, enforcing access controls for multiple user roles.",
+      "Deployed services on AWS Lambda and DynamoDB, reducing infrastructure overhead and scaling automatically during peak loads.",
+      "Participated in full sprint cycles from UI planning and API development to code reviews and test coverage, gaining exposure to production-grade deployments.",
     ],
   },
 ];
@@ -167,6 +145,21 @@ const socialLinks = [
     label: "LinkedIn",
   },
   { href: "https://twitter.com/mallireddy0", icon: Twitter, label: "Twitter" },
+];
+
+const education = [
+  {
+    degree: "Master’s in Information Systems",
+    institution: "Saint Louis University",
+    period: "Aug 2023 – May 2025",
+    details: "GPA: 3.9",
+  },
+  {
+    degree: "Bachelor’s in Computer Science and Engineering",
+    institution: "Lakireddy Bali Reddy College of Engineering",
+    period: "Jun 2018 – May 2022",
+    details: "",
+  },
 ];
 
 export default function Home() {
@@ -232,17 +225,27 @@ export default function Home() {
             >
               <Badge
                 variant="secondary"
-                className="px-3 py-1 bg-gradient-to-r from-blue-200 to-gray-200 text-gray-800"
+                className="px-3 py-1 mr-3 bg-gradient-to-r from-blue-200 to-gray-200 text-gray-800"
               >
                 Full Stack Developer
               </Badge>
+
+              <Badge
+                variant="secondary"
+                className="px-3 py-1 bg-gradient-to-r from-blue-200 to-gray-200 text-gray-800"
+              >
+                ML Engineer
+              </Badge>
+
               <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-blue-400">
                 Hey, I&apos;m Mallikarjuna Reddy Gayam
               </h1>
               <p className="text-gray-600 text-lg max-w-[600px]">
-                A passionate and versatile Full Stack Developer creating
-                innovative solutions with expertise in Front-End and Back-End
-                technologies.
+                Full Stack and AI/ML Engineer with expertise in building
+                scalable web applications, intelligent systems, and deploying ML
+                models. Proficient in React/Next.js, Node.js, Python, and AWS,
+                delivering impactful features with a focus on performance and
+                clean architecture.
               </p>
               <div className="flex gap-4">
                 <Button
@@ -296,7 +299,7 @@ export default function Home() {
                     <span className="pl-4">
                       name:{" "}
                       <span className="text-blue-500">
-                        &apos;Mallikarjuna&apos;
+                        &apos;Mallikarjuna Reddy Gayam&apos;
                       </span>
                       ,
                     </span>
@@ -306,22 +309,18 @@ export default function Home() {
                         &apos;Full Stack Developer&apos;
                       </span>
                       ,
+                      <span className="text-blue-500">
+                        &apos;ML Engineer&apos;
+                      </span>
                     </span>
                     <span className="pl-4">
                       location:{" "}
-                      <span className="text-blue-500">&apos;United States&apos;</span>,
-                    </span>
-                    <span className="pl-4">
-                      interests: [
                       <span className="text-blue-500">
-                        &apos;Full Stack Development&apos;
+                        &apos;United States&apos;
                       </span>
-                      ,{" "}
-                      <span className="text-blue-500">
-                        &apos;Cloud Computing&apos;
-                      </span>
-                      ]
+                      ,
                     </span>
+
                     <span>{"}"}</span>
                   </code>
                 </CardContent>
@@ -373,6 +372,48 @@ export default function Home() {
                   </CardContent>
                 </Card>
               </motion.div>
+            ))}
+          </div>
+        </motion.section>
+
+        <motion.section
+          id="education"
+          className="pt-16"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          viewport={{ once: true }}
+        >
+          <div className="text-center space-y-2 mb-12">
+            <Badge
+              variant="secondary"
+              className="px-3 py-1 bg-gradient-to-r from-blue-200 to-gray-200 text-gray-800"
+            >
+              Education
+            </Badge>
+            <h2 className="text-3xl font-bold text-gray-800">
+              My Academic Journey
+            </h2>
+            <p className="text-gray-600">Degrees and qualifications</p>
+          </div>
+          <div className="space-y-8">
+            {education.map((edu, index) => (
+              <Card
+                key={index}
+                className="overflow-hidden hover:shadow-lg transition-shadow duration-300"
+              >
+                <CardContent className="p-6">
+                  <h3 className="font-bold text-lg text-blue-600">
+                    {edu.degree}
+                  </h3>
+                  <p className="text-gray-500">
+                    {edu.institution} | {edu.period}
+                  </p>
+                  {edu.details && (
+                    <p className="text-gray-500">{edu.details}</p>
+                  )}
+                </CardContent>
+              </Card>
             ))}
           </div>
         </motion.section>
