@@ -313,13 +313,7 @@ export default function Home() {
                         &apos;ML Engineer&apos;
                       </span>
                     </span>
-                    <span className="pl-4">
-                      location:{" "}
-                      <span className="text-blue-500">
-                        &apos;United States&apos;
-                      </span>
-                      ,
-                    </span>
+                  
 
                     <span>{"}"}</span>
                   </code>
