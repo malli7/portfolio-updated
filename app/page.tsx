@@ -107,7 +107,7 @@ const workExperience = [
   {
     company: "Cognizant",
     position: "Software Engineer",
-    period: "May 2022 - Aug 2023",
+    period: "Feb 2023 - Aug 2023",
     responsibilities: [
       "Developed dynamic web apps using React.js, Next.js, and Node.js, improving user engagement and reducing bounce rate by 30% through SPA optimizations and lazy loading.",
       "Engineered secure backend APIs with Express.js, implementing token-based authentication, input validation, and role-based access.",
@@ -121,7 +121,7 @@ const workExperience = [
   {
     company: "Cognizant",
     position: "Software Engineer Intern",
-    period: "Nov 2021 - Apr 2022",
+    period: "Feb 2022 - Aug 2022",
     responsibilities: [
       "Built a fully interactive internal dashboard using React, FastAPI, and MongoDB, automating record tracking and reducing admin workload by 30%.",
       "Integrated NLP search features using spaCy, Scikit-learn, and fuzzy string matching to enhance search precision over semi-structured records.",
