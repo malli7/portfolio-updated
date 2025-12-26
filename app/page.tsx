@@ -104,6 +104,16 @@ const skills = [
   "Java",
 ];
 const workExperience = [
+    {
+    company: "Community Dreams Foundation",
+    position: "Machine Learning Engineer",
+    period: "Aug 2025 - Present",
+    responsibilities: [
+      "Designed and deployed end-to-end machine learning models, from requirements gathering and data preparation to production implementation.",
+      "Built analytics and reporting pipelines to monitor model performance, analyze results, and deliver clear, data-driven insights to stakeholders.",
+      "Developed and maintained scalable data pipelines and systems, identifying patterns in complex datasets to continuously improve model accuracy and business impact",
+    ],
+  },
   {
     company: "Cognizant",
     position: "Software Engineer",
